@@ -4,7 +4,11 @@
 }
 
 .navbar-nav > li{
-  padding-left:25px;
+  padding-left:47px;
+}
+
+.search-login-basket {
+  margin-right: 50px;
 }
 
 .carousel-inner > .item > img {
@@ -17,4 +21,10 @@
   margin:auto;
   width:450px;
   height:400px;
+}
+
+.glyphicon {
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
