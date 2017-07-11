@@ -9,6 +9,29 @@
 
 .search-login-basket {
   margin-right: 50px;
+  margin-top: 11px;
+}
+
+.glyphicon {
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.glyphicon glyphicon-search {
+  margin-left: 50px;
+}
+
+input[type=text] {
+  border: none;
+    width: 50px;
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 40%;
 }
 
 .carousel-inner > .item > img {
@@ -21,14 +44,4 @@
   margin:auto;
   width:450px;
   height:400px;
-}
-
-.glyphicon {
-  font-size: 17px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.search-login-basket {
-  margin-top: 11px;
 }
