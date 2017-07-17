@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/ScottGledhill/bootstrapPractice/issues"
   },
-  "homepage": "https://github.com/ScottGledhill/bootstrapPractice#readme"
+  "homepage": "https://github.com/ScottGledhill/bootstrapPractice#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3",
+    "passport": "^0.3.2"
+  }
 }
