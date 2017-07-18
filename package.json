@@ -2,9 +2,10 @@
   "name": "crueltyfree",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,19 @@
   },
   "homepage": "https://github.com/ScottGledhill/bootstrapPractice#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "cors": "^2.8.4",
-    "express": "^4.15.3",
-    "mongoose": "^4.11.3",
-    "passport": "^0.3.2"
+    "bcrypt": "^1.0.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "bootstrap": "^3.3.7",
+    "cors": "*",
+    "express": "*",
+    "jquery": "^3.2.1",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.2.8"
   }
 }
